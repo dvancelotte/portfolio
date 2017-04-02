@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Megrim');   
+@import url('https://fonts.googleapis.com/css?family=Righteous');   
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');   
+@import url('https://fonts.googleapis.com/css?family=Quicksand');   
+ 
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/header.jpg');
+  text-align: center;
+  color: white;
+}
+
+
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  font-family: 'Megrim';
+  font-weight: 0;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 50px;
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+
+  font-family: Open Sans Condensed;
+  
+  font-weight: 300;
+  color: whitesmoke;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+
+.center {
+    min-width: 20%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+@font-face {
+    font-family: 'Megrim', cursive;
+    font-family: 'Open Sans Condensed', 'sans-serif' ; 
+    font-family: 'Righteous', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li a{
+  font-family: 'Quicksand';
+  font-weight: 300;
+  color: #fcfcfc !important;
+  font-size: 18px;
+}
+li a:hover{
+  color: #DEBDEB !important;
+}
+
+nav{
+    background: transparent !important;
+    border: 0px !important;
+    
+}
+
+#portfolio{
+    background: black;
+    padding-bottom: 200px;
+}
+
+h2{
+    font-family: 'Open Sans Condensed';
+    font-weight: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 50px;
+    color: white;
+}
+
+hr{
+    border-color: #e4b5e4;
+    border-width: 2px;
+    max-width: 200px;
+    padding-bottom: 40px;
+}
+
+p{
+    font-family: 'Open Sans Condensed';
+    color: white;
+}
+
+#contact{
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 76%, rgba(6,0,6,1) 79%, rgba(9,1,10,1) 81%, rgba(45,3,48,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(76%, rgba(0,0,0,1)), color-stop(79%, rgba(6,0,6,1)), color-stop(81%, rgba(9,1,10,1)), color-stop(100%, rgba(45,3,48,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 76%, rgba(6,0,6,1) 79%, rgba(9,1,10,1) 81%, rgba(45,3,48,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 76%, rgba(6,0,6,1) 79%, rgba(9,1,10,1) 81%, rgba(45,3,48,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 76%, rgba(6,0,6,1) 79%, rgba(9,1,10,1) 81%, rgba(45,3,48,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 76%, rgba(6,0,6,1) 79%, rgba(9,1,10,1) 81%, rgba(45,3,48,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#2d0330', GradientType=0 );
+}
+
+.contact-conteudo{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#contact img{
+    width: 30%;
+}
+
+#contact img:hover{
+    border-radius: 300px;
+    -moz-box-shadow: 0 0 10px #debdeb; 
+    -webkit-box-shadow: 0 0 10px #debdeb; 
+    box-shadow: 0 0 10px #debdeb; 
+}
+
+#rodape{
+    background-color: rgba(45,3,48,1);
+    padding: 0px;
+}
+
+#rodape p{
+    color: whitesmoke;
+    
+}
+
+.shape-triangule{ 
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.shape-triangule-inverse{ 
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
